@@ -3886,3 +3886,7 @@ content:none
      color:#333;
      text-align: center
  }
+
+ .slick-dots {
+    padding-left: 0px;
+ }
