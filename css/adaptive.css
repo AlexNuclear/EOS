@@ -226,6 +226,9 @@
 	.about-sec .tab-content p, .about-left-block p {
 		padding: 39px 0 0 0;
 	}
+	.white-block .input-style {
+		margin-bottom: 15px;
+	}
 
 	.number-block span {
 		font-size: 62px;
