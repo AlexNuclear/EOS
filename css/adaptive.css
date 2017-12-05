@@ -115,6 +115,9 @@
 	.grblock-wrapper .event-grblock .right-block:before {
 		display: none;
 	}
+	.order-block-bottom {
+	    padding: 30px 22px;
+	}
 }
 
 @media screen and (max-width: 1200px) {
