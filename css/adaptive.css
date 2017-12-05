@@ -118,6 +118,9 @@
 	.order-block-bottom {
 	    padding: 30px 22px;
 	}
+	.col-lg-12-custom {
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 1200px) {
@@ -396,7 +399,7 @@
 	    height: 90px;
 	    border-radius: 50%;
 	    border: 1px solid #f57e20;
-	    left: -26px;
+	    left: 0px;
 	    top: 0px;
 	}
 	footer:before {
