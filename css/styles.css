@@ -1785,7 +1785,6 @@ margin-right: -3px;
     border: 1px solid #e7e7e7;
     min-height: 200px;
     margin-bottom: 25px;
-    overflow: auto;
     padding-left: 25px;
     padding-right: 15px;
 }
@@ -2085,6 +2084,7 @@ color:#f57e20
 }
 
 .advantages-wrap i {
+    height: 100%;
     float: left;
     margin-right: 15px;
     color: #ff9c00;
@@ -2106,7 +2106,7 @@ color:#f57e20
 }
 
 .advantages-wrap .number-block {
-    height: 105px
+    height: 90px
 }
 
 .advantages-wrap .h2-style {

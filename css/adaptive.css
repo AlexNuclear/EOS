@@ -115,15 +115,39 @@
 	.grblock-wrapper .event-grblock .right-block:before {
 		display: none;
 	}
+
 	.order-block-bottom {
 	    padding: 30px 22px;
 	}
+
 	.col-lg-12-custom {
 		width: 100%;
+	}
+
+	.screens-mini-arrows .slider-next {
+    	right: -40px;
+	}
+	.advantages-wrap .number-block {
+		height: 95px;
+	}
+	.check-wrapper {
+		padding-right: 10px;
+		padding-left: 10px;
 	}
 }
 
 @media screen and (max-width: 1200px) {
+
+	.advantages-wrap .number-block {
+		height: 87px;
+	}
+	.advantages-wrap .number-block {
+		margin-bottom: 25px;
+	}
+	.order-block-bottom {
+	    padding: 30px 22px;
+	}
+
 	.main-menu li a {
 		font-size: 12px;
 	}
@@ -408,10 +432,15 @@
 	input.input-style {
     	margin-bottom: 20px;
 	}
+	.about-sec .tab-content p, .about-left-block p {
+		padding: 20px 0 0 0;
+	}
 }
 
 @media screen and (max-width: 767px) {
-
+	.sp-sec .about-left-block {
+		height: 230px;
+	}
 	.case-wrap:nth-of-type(2) .case-block .orange-button {
 	    bottom: 0px;
 	}
@@ -726,6 +755,9 @@
 	}
 	.grblock-wrapper .event-grblock .right-block {
 		margin-left: 0px;
+	}
+	#sol-detal-company .slider-wrapper h3 {
+		font-size: 21px;
 	}
 
 }

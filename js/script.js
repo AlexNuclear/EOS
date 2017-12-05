@@ -136,7 +136,8 @@ $(document).ready(function () {
         hash: false,
     });
     
-    $('.a-down').bind('click', function () {
+    $('.a-down').bind('click', function (evt) {
+        evt.preventDefault();
         $(this).toggleClass('active');
         if ($(this).hasClass('active')) {
 
@@ -146,7 +147,8 @@ $(document).ready(function () {
             $('.a-down-wrap').css('max-height', maxheight);
         }
     });
-    var maxheight = $('.a-down-wrap-one').height();
+
+    var maxheight = $('.a-down-wrap-one').height() + 50;
     $('.a-down-one').bind('click', function () {
         $(this).toggleClass('active');
         if ($(this).hasClass('active')) {
