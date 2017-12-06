@@ -252,9 +252,8 @@
 }
 
 @media screen and (max-width: 992px) {
-	
-	.about-sec .tab-content p, .about-left-block p {
-		padding: 39px 0 0 0;
+	.about-sec .city-wrap .p-bold {
+		margin-top: 0px;
 	}
 	.white-block .input-style {
 		margin-bottom: 15px;
@@ -433,7 +432,7 @@
     	margin-bottom: 20px;
 	}
 	.about-sec .tab-content p, .about-left-block p {
-		padding: 20px 0 0 0;
+		padding: 10px 0 0 0;
 	}
 }
 
