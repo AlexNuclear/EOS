@@ -115,9 +115,47 @@
 	.grblock-wrapper .event-grblock .right-block:before {
 		display: none;
 	}
+<<<<<<< HEAD
 
 	.contact-block a {
 		font-size: 15px;
+=======
+
+	.order-block-bottom {
+	    padding: 30px 22px;
+	}
+
+	.col-lg-12-custom {
+		width: 100%;
+	}
+
+	.screens-mini-arrows .slider-next {
+    	right: -40px;
+	}
+	.advantages-wrap .number-block {
+		height: 95px;
+	}
+	.check-wrapper {
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+
+	.advantages-wrap .number-block {
+		height: 87px;
+	}
+	.advantages-wrap .number-block {
+		margin-bottom: 25px;
+	}
+	.order-block-bottom {
+	    padding: 30px 22px;
+	}
+
+	.main-menu li a {
+		font-size: 12px;
+>>>>>>> f69acd25fd2ff5695ce6af5b7215307dc5b6f349
 	}
 
 	.contact-block .soc-icons a {
@@ -227,9 +265,8 @@
 }
 
 @media screen and (max-width: 992px) {
-	
-	.about-sec .tab-content p, .about-left-block p {
-		padding: 39px 0 0 0;
+	.about-sec .city-wrap .p-bold {
+		margin-top: 0px;
 	}
 	.white-block .input-style {
 		margin-bottom: 15px;
@@ -369,7 +406,7 @@
 	    border: 43px;
 	    right: auto;
 	    width: 260px;
-	    bottom: 75px;
+	    bottom: 45px;
 	    position: absolute;
 	}
 
@@ -398,16 +435,24 @@
 	    height: 90px;
 	    border-radius: 50%;
 	    border: 1px solid #f57e20;
-	    left: -26px;
+	    left: 0px;
 	    top: 0px;
 	}
 	footer:before {
 		bottom: 60px;
 	}
+	input.input-style {
+    	margin-bottom: 20px;
+	}
+	.about-sec .tab-content p, .about-left-block p {
+		padding: 10px 0 0 0;
+	}
 }
 
 @media screen and (max-width: 767px) {
-
+	.sp-sec .about-left-block {
+		height: 230px;
+	}
 	.case-wrap:nth-of-type(2) .case-block .orange-button {
 	    bottom: 0px;
 	}
@@ -726,6 +771,7 @@
 	.grblock-wrapper .event-grblock .right-block {
 		margin-left: 0px;
 	}
+<<<<<<< HEAD
 	.tabs-sec {
 		padding: 20px 0;
 	}
@@ -734,6 +780,10 @@
 	}
 	.header .header-first-row .log-in button img {
     	margin-left: 12px
+=======
+	#sol-detal-company .slider-wrapper h3 {
+		font-size: 21px;
+>>>>>>> f69acd25fd2ff5695ce6af5b7215307dc5b6f349
 	}
 
 }
