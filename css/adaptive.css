@@ -115,12 +115,17 @@
 	.grblock-wrapper .event-grblock .right-block:before {
 		display: none;
 	}
+
+	.contact-block a {
+		font-size: 15px;
+	}
+
+	.contact-block .soc-icons a {
+	    padding-right: 8px;
+	}
 }
 
-@media screen and (max-width: 1200px) {
-	.main-menu li a {
-		font-size: 12px;
-	}
+@media screen and (max-width: 1199px) {
 
 	.block-wrap .img-back {
 	    height: 207px;
@@ -598,6 +603,9 @@
     	min-height: 230px;
     	overflow: unset;
 	}
+	.nav-tabs li {
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 525px) and (min-width: 300px) {
@@ -718,6 +726,15 @@
 	.grblock-wrapper .event-grblock .right-block {
 		margin-left: 0px;
 	}
+	.tabs-sec {
+		padding: 20px 0;
+	}
+	.sp-sec .about-left-block {
+		padding: 0 25px;
+	}
+	.header .header-first-row .log-in button img {
+    	margin-left: 12px
+	}
 
 }
 
@@ -728,5 +745,8 @@
 	}
 	.but-date {
 		padding-left: 0px;
+	}
+	.sp-sec .about-left-block {
+		min-height: 400px;
 	}
 }

@@ -3770,18 +3770,8 @@ content:none
     overflow: auto;
 }
 .popup-call{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -ms-flex-line-pack: center;
+    display: block;
     align-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
 }
 .bg-popup .container{
     width:933px
@@ -3886,3 +3876,7 @@ content:none
      color:#333;
      text-align: center
  }
+
+ .screens-sp-slider .slide {
+    padding-right: 25px;
+}
