@@ -437,6 +437,8 @@
 }
 
 @media screen and (max-width: 767px) {
+
+
 	.sp-sec .about-left-block {
 		height: 230px;
 	}
@@ -626,6 +628,7 @@
 	    font-weight: 300;
         padding: 0 20px;
         margin-bottom: 15px;
+        text-align: center;
 	}
 	.h-p-wrap {
 		margin-bottom: 30px;
