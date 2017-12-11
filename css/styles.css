@@ -1785,7 +1785,6 @@ margin-right: -3px;
     border: 1px solid #e7e7e7;
     min-height: 200px;
     margin-bottom: 25px;
-    overflow: auto;
     padding-left: 25px;
     padding-right: 15px;
 }
@@ -2107,7 +2106,6 @@ color:#f57e20
 }
 
 .advantages-wrap .number-block {
-    height: 105px
     height: 90px
 }
 
@@ -2172,10 +2170,8 @@ color:#f57e20
     border-bottom: 1px solid #ddd
 }
 
-.threecol-wrap {
 /*.threecol-wrap {
     margin-top: 70px;
-}
 }*/
 
 .a-down-one {
@@ -2306,7 +2302,6 @@ color:#f57e20
 }
 
 .func-wrap {
-    position: relative
     position: relative;
     margin-bottom:60px;
 }
@@ -3335,7 +3330,6 @@ content:none
     text-align: center;
     font-size: 19px;
     color:#333;
-    padding:0 25px;
     padding:0 10px;
     position: relative
 }
@@ -3344,7 +3338,6 @@ content:none
     text-align: center;
     font-size: 19px;
     color: #333;
-    padding: 0 25px;
     padding: 10px 0px;
     position: relative;
     z-index: 5;
@@ -3714,7 +3707,6 @@ content:none
     border-top:1px solid #ddd
 }
 .mob-sec .threecol-wrap{
-    margin-top:0
     margin-top:0;
 }
 .mob-sec .info-wrap h2{
@@ -3901,7 +3893,7 @@ content:none
 <<<<<<< HEAD
  .screens-sp-slider .slide {
     padding-right: 25px;
-}}
+}
 =======
  .slick-dots {
     padding-left: 0px;
