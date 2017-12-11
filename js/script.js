@@ -45,7 +45,16 @@ $(document).ready(function () {
         appendArrows: $('.project-arrows'),
         prevArrow: '<button class="slider-prev"><i class="flaticon-back"></i></button>',
         nextArrow: '<button class="slider-next"><i class="flaticon-next"></i></button>',
+
+        	responsive: [
+          {
+            breakpoint: 1200,
+            settings: {
+              arrows:false
+            }
+        }]
     });
+
     $('.sol-top-slider').slick({
         arrows: false,
         dots: true,
@@ -70,26 +79,22 @@ $(document).ready(function () {
         appendArrows: $('.screens-sp-arrows'),
         prevArrow: '<button class="slider-prev"><i class="flaticon-back"></i></button>',
         nextArrow: '<button class="slider-next"><i class="flaticon-next"></i></button>',
-        slidesToShow: 4,
-        slidesToScroll: 4,
+        slidesToShow: 3,
+        slidesToScroll: 3,
 
         responsive: [
     {
-      breakpoint: 1200,
-      settings: {
-        slidesToShow: 4,
-        slidesToScroll: 4
-      },
-      breakpoint: 980,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      },
-
-      breakpoint: 580,
+      breakpoint: 760,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 2,
+        arrows:false
+      },
+
+      breakpoint: 500,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
         arrows:false
       }
 
