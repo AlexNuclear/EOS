@@ -115,11 +115,6 @@
 	.grblock-wrapper .event-grblock .right-block:before {
 		display: none;
 	}
-<<<<<<< HEAD
-
-	.contact-block a {
-		font-size: 15px;
-=======
 
 	.order-block-bottom {
 	    padding: 30px 22px;
@@ -155,15 +150,7 @@
 
 	.main-menu li a {
 		font-size: 12px;
->>>>>>> f69acd25fd2ff5695ce6af5b7215307dc5b6f349
 	}
-
-	.contact-block .soc-icons a {
-	    padding-right: 8px;
-	}
-}
-
-@media screen and (max-width: 1199px) {
 
 	.block-wrap .img-back {
 	    height: 207px;
@@ -651,9 +638,6 @@
     	min-height: 230px;
     	overflow: unset;
 	}
-	.nav-tabs li {
-		width: 100%;
-	}
 }
 
 @media screen and (max-width: 525px) and (min-width: 300px) {
@@ -774,19 +758,8 @@
 	.grblock-wrapper .event-grblock .right-block {
 		margin-left: 0px;
 	}
-<<<<<<< HEAD
-	.tabs-sec {
-		padding: 20px 0;
-	}
-	.sp-sec .about-left-block {
-		padding: 0 25px;
-	}
-	.header .header-first-row .log-in button img {
-    	margin-left: 12px
-=======
 	#sol-detal-company .slider-wrapper h3 {
 		font-size: 21px;
->>>>>>> f69acd25fd2ff5695ce6af5b7215307dc5b6f349
 	}
 
 }
@@ -798,8 +771,5 @@
 	}
 	.but-date {
 		padding-left: 0px;
-	}
-	.sp-sec .about-left-block {
-		min-height: 400px;
 	}
 }
